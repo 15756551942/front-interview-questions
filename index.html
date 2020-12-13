@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* position实现 */
+        /* html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            position: relative;
+            height: 100%;
+        }
+        .left,.right,.main {
+            position: absolute;
+            height: 100%;
+            top: 0;
+        }
+        .left {
+            width: 100px;
+            left: 0;
+            background-color: royalblue;
+        }
+        .right {
+            width: 100px;
+            right: 0;
+            background-color: saddlebrown;
+        }
+        .main {
+            left: 100px;
+            right: 100px;
+            background-color: red;
+        } */
+        /* float实现 */
+        /* html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container,.left,.right,.main {
+            height: 100%;
+        }
+        .left {
+            width: 100px;
+            float: left;
+            background-color: rosybrown;
+        }
+        .right {
+            width: 100px;
+            float: right;
+            background-color: royalblue;
+        }
+        .main {
+            margin: 0 100px;
+            background-color: red;
+        } */
+        /* flex实现 */
+        /* html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container,.left,.right,.main {
+            height: 100%;
+        }
+        .container {
+            display: flex;
+        }
+        .left {
+            width: 100px;
+            background-color: rosybrown;
+        }
+        .right {
+            width: 100px;
+            background-color: royalblue;
+        }
+        .main {
+            flex: 1;
+            background-color: red;
+        } */
+        /* 圣杯布局 */
+        /* html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            height: 100%;
+            margin: 0 100px;
+        }
+        .left,.right,.main {
+            float: left;
+            position: relative;
+            height: 100%;
+        }
+        .left {
+            width: 100px;
+            left: -100px;
+            margin-left: -100%;
+            background-color: blue;
+        }
+        .right {
+            width: 100px;
+            right: -100px;
+            margin-left: -100px;
+            background-color: blue;
+        }
+        .main {
+            width: 100%;
+            background-color: red;
+        } */
+        /* 双飞翼布局 */
+        /* html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            height: 100%;
+        }
+        .left,.right,.main {
+            float: left;
+            height: 100%;
+        }
+        .left {
+            width: 100px;
+            margin-left: -100%;
+            background-color: blue;
+        }
+        .right {
+            width: 100px;
+            margin-left: -100px;
+            background-color: blue;
+        }
+        .main {
+            width: 100%;
+            background-color: red;
+        }
+        .main-inner {
+            margin: 0 100px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="main-inner">main</div>
+        </div>
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </div>
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>
